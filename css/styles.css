@@ -546,10 +546,6 @@ img {
   color: var(--accent-color);
 }
 
-/* .address-join {
-  margin-right: 93px;
-} */
-
 .join {
   font-family: inherit;
   font-style: normal;
@@ -598,11 +594,6 @@ img {
   margin-left: 10px;
 }
 
-.follow-section {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .follow-us {
   font-family: inherit;
   font-weight: 700;
@@ -646,6 +637,16 @@ img {
   margin-left: 12px;
   margin-right: 0 auto;
   cursor: pointer;
+  display: flex;
+}
+
+.footer-button::after {
+  content: url(../images/icon-send.svg);
+  color: #ffffff;
+  width: 24px;
+  height: 24px;
+  align-items: center;
+  margin-left: 10px;
 }
 
 /* -------------PORTFOLIO------------ */
