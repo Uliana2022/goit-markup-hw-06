@@ -619,6 +619,10 @@ img {
   padding-left: 16px;
 }
 
+.footer-form {
+  margin-left: auto;
+}
+
 .footer-button {
   width: 200px;
   height: 50px;
@@ -629,8 +633,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--main-background-color);
   border: none;
@@ -638,6 +640,8 @@ img {
   margin-right: 0 auto;
   cursor: pointer;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-button::after {
@@ -645,8 +649,11 @@ img {
   color: #ffffff;
   width: 24px;
   height: 24px;
-  align-items: center;
   margin-left: 10px;
+}
+
+.email-button {
+  display: flex;
 }
 
 /* -------------PORTFOLIO------------ */
@@ -792,8 +799,8 @@ img {
   cursor: pointer;
 }
 
-.modal-close-button:hover {
-  color: var(--accent-color);
+.modal-close:hover {
+  fill: var(--accent-color);
 }
 
 .modal-header {
@@ -925,6 +932,7 @@ img {
   background-color: var(--accent-color);
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .is-hidden {
