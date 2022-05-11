@@ -617,6 +617,7 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding-left: 16px;
+  color: #afb1b8;
 }
 
 .footer-form {
@@ -869,6 +870,10 @@ img {
   padding: 12px 16px;
   resize: none;
   margin-bottom: 20px;
+}
+
+.modal-agree {
+  padding-left: 17px;
 }
 
 .modal-comment::placeholder {
